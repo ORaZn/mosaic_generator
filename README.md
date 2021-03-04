@@ -1,5 +1,5 @@
 # mosaic_generator
-Run “python mosaic_generator.py --help” for input parametersinformation.
+Run “python mosaic_generator.py --help” for input parameters information.
 Example: python Mosaic_Creator.py --input kitty.jpg --images <images base folder> --patchsize 100 100 --shape rectangle
 
 The program apart from the input image and images folder takes asparameters a grid size to which the original image is divided (numberof patches across the horizontal dimension and number of patchesacross the vertical dimension) and the shape with which candidateimages will fill the original image. According to the size of the gridthe dimensions of patches is automatically calculated given thedimensions of an original image.
